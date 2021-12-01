@@ -1,0 +1,28 @@
+<template>
+  <lightning-card title="List of Contacts - Lightning Web Component" icon-name="custom:custom63">
+    <lightning-combobox
+        name="Account"
+        label="Account"
+        placeholder="Choose Account"
+        value={value}
+        onchange={handleChange}
+        options={options}>
+    </lightning-combobox>
+
+    <lightning-combobox
+        name="contacts"
+        label="Contacts"
+        placeholder="Choose Contact"
+        value={value}
+        options={options2}>
+    </lightning-combobox>
+
+    <lightning-combobox
+        name="Opportunity"
+        label="Opportunity"
+        placeholder="Choose Opportunity"
+        value={value}
+        options={options3}>
+    </lightning-combobox>
+</lightning-card>
+</template>
